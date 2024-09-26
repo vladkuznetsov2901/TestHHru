@@ -15,4 +15,5 @@
    HAVING SUM(ot.quantity * p.price) > 150000
    ORDER BY total_revenue DESC; 
   ```
-3) https://onecompiler.com/javascript/42tbhtf6t
+3) Ссылка на инвалидный oneCompiler(хотя может это и я инвалидный): https://onecompiler.com/html/42tbkcf6s
+Данные закинул на wiremock и от туда их уже спарсил. Также, добавил еще пару человек в данные для проверки функции. Проверил данные по всем пунктам из задания и вывел в логи ответы и, в случае отказа, причины отказа.
